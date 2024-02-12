@@ -70,7 +70,14 @@ try:
         sendmsg('forward 60', 6)
         """
         # Triangle - Pilot = Carson Grant - CoPilot Bryson LaMew
-        
+        """
+        sendmsg('up 100', 6)
+        sendmsg('forward 60', 6)
+        sendmsg('cw 135', 6)
+        sendmsg('forward 60', 6)
+        sendmsg('cw 135', 6)
+        sendmsg('forward 60', 6)
+        """
         # Circle - Pilot = Bryson Lamew
 
 
