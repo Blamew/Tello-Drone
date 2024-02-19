@@ -59,7 +59,7 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        sendmsg('forward 80')
+        sendmsg('forward 200')
 
         sendmsg('land')
 
