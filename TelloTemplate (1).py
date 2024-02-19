@@ -44,7 +44,7 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 
 
-print("\nBryson LaMew - Team Member: Carson Grant)
+print("\nBryson LaMew - Team Member: Carson Grant")
 print("Program Name: Autonomous Flight ")
 print("Date:2.6.2024")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
@@ -59,8 +59,7 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        # Review the (SDK) Software Development Kit resource for Drone Commands
-        # Delete these comments before writing your program
+        sendmsg('forward 80')
 
         sendmsg('land')
 
