@@ -51,7 +51,6 @@ print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
 
-
 try:
     if ready.lower() == 'yes':
         print("\nStarting Drone!\n")
@@ -60,12 +59,14 @@ try:
         sendmsg('battery?')
         sendmsg('takeoff', 8)
 
-        sendmsg('forward 180', 7)  # Worked on Bryson's Computer
+        sendmsg('forward 170', 10)  # Worked on Bryson's Computer
 
-        sendmsg('go 210 0 50 50', 8)  # Worked on Carson's Computer
+        sendmsg('go 210 0 50 50', 10)  # Worked on Carson's Computer
 
-        sendmsg('curve 50 135 0 -40 270 20 50', 7)  # Worked on Bryson's Computer
-        sendmsg('cw 180')
+        sendmsg('curve 50 135 0 -40 270 20 50', 12)  # Worked on Bryson's Computer
+
+        sendmsg('cw 180', 10)
+
         sendmsg('land')
 
         print('\nGreat Flight!!!')
