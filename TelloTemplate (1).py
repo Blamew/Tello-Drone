@@ -67,6 +67,8 @@ try:
 
         sendmsg('cw 180', 10)
 
+        sendmsg('go 160 0 -30 50')  # Worked on Carson's Computer
+
         sendmsg('land')
 
         print('\nGreat Flight!!!')
